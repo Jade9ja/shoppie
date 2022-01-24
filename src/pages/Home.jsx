@@ -1,9 +1,20 @@
 import React from 'react'
-
+import Announcement from '../components/Announcement';
+import Categories from '../components/Categories';
+import Footer from '../components/Footer';
+import Navbar from '../components/Navbar';
+import Products from '../components/Products';
+import Slider from '../components/Slider';
+import './Home.css';
 function Home() {
     return (
         <div>
-            <h1>Home!</h1>
+            <Announcement />
+            <Navbar />
+            <Slider />
+            <Categories />
+            <Products />
+            <Footer />
         </div>
     )
 }

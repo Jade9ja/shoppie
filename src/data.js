@@ -22,7 +22,7 @@ export const sliderItems = [
     },
   ];
 
-  export const categories = [
+  export const categoryItems = [
     {
       id: 1,
       img: "https://images.pexels.com/photos/5886041/pexels-photo-5886041.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
@@ -67,7 +67,7 @@ export const sliderItems = [
     },
     {
       id:7,
-      img:"https://www.vintageindustries.nl/download_front/qympzk1762/2217_Arrow_Jacket_Forest.png",
+      img:"http://assets.stickpng.com/images/585680404f6ae202fedf26f0.png",
     },
     {
       id:8,

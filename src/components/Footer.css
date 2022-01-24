@@ -1,0 +1,87 @@
+.footer-container {
+    display: flex;
+    background-color: #e91e63;
+}
+
+.footer-left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: start;
+}
+
+.footer-logo {
+    color: white;
+    font-size: 2.5rem;
+    margin: 18px 0;
+}
+
+.footer-desc {
+    text-align: start;
+    color: white;
+    margin-bottom: 2rem;
+}
+
+.footer-social *{
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 50%;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.footer-center {
+    flex: 1;
+    padding: 20px;
+    color: white;
+    text-align: start;
+}
+
+.footer-center h3 {
+    margin: 40px 0;
+}
+.links-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+ .links {
+     width: 33.33%;
+     margin-bottom: 10px;
+ }
+.footer-right  {
+    flex: 1;
+    padding: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+
+.footer-right h3 {
+    margin-top: 40px;
+}
+
+.mail, .phone, .address {
+    display: flex;
+    align-items: center;
+}
+
+.mail p {
+    margin-left: 5px;
+}
+
+.phone p {
+    margin-left: 5px;
+}
+.address p {
+    margin-left: 5px;
+}
+
+
